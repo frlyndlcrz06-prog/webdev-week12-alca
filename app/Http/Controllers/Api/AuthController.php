@@ -3,15 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-
-class AuthController extends Controller
-{
-    //<?php
-
-namespace App\Http\Controllers\Api;
-
-use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
 use App\Http\Requests\RegisterRequest;
 use App\Models\User;
@@ -61,5 +52,4 @@ class AuthController extends Controller
             ],
         ], $status);
     }
-}
 }
